@@ -4,7 +4,7 @@ use warnings;
 use DateTime::Format::Strptime;
 use Try::Tiny;
 
-our $VERSION = "0.04";
+our $VERSION = "0.05";
 
 our $preferred = 0;
 

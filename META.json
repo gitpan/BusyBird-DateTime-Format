@@ -18,23 +18,18 @@
          "t",
          "xt",
          "eg",
-         "inc"
+         "inc",
+         "share"
       ],
       "file" : [
          "README.pod"
       ]
    },
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "Module::Build::Pluggable::CPANfile" : "0.05"
-         }
-      },
       "configure" : {
          "requires" : {
             "Module::Build" : "0.42",
-            "Module::Build::Pluggable" : "0.09",
-            "Module::Build::Pluggable::CPANfile" : "0.05"
+            "Module::Build::Prereqs::FromCPANfile" : "0.02"
          }
       },
       "runtime" : {
@@ -60,5 +55,5 @@
          "web" : "https://github.com/debug-ito/BusyBird-DateTime-Format"
       }
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
